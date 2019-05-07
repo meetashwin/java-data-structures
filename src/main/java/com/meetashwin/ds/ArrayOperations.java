@@ -59,4 +59,12 @@ public class ArrayOperations {
 
 		return rotatedArray;
 	}
-}
+
+	public static int[] mergeSortArray(int[] unsortedArray) {
+		return mergeSort(unsortedArray);
+	}
+
+	private static int[] mergeSort(int[] unsortedArray) {
+		return unsortedArray;
+	}
+} 
