@@ -13,7 +13,10 @@ Here are the data structures covered and operations
     3. Find if the Linked List is circular
 3. Stack (coming soon)
 4. Queue (coming soon)
-5. Trees (coming soon)
+5. Trees
+   1. Basic tree traversal - Inorder, Preorder, Postorder
+6. Trie (coming soon)
+7. Graphs (coming soon)
 
 ## How to use it
 
