@@ -1,5 +1,8 @@
 package com.meetashwin.ds;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class TreeOperations {
     TreeNode root;
 
@@ -44,35 +47,11 @@ public class TreeOperations {
 }
 
 class TreeNode {
-    private int key;
-    private TreeNode left, right;
+    @Getter @Setter private int key;
+    @Getter @Setter private TreeNode left, right;
 
     public TreeNode(int key) {
         this.key = key;
         left = right = null;
-    }
-
-    public int getKey() {
-        return this.key;
-    }
-
-    public void setKey() {
-        this.key = key;
-    }
-
-    public TreeNode getLeft() {
-        return this.left;
-    }
-
-    public void setLeft(TreeNode tn) {
-        this.left = tn;
-    }
-
-    public TreeNode getRight() {
-        return this.right;
-    }
-
-    public void setRight(TreeNode tn) {
-        this.right = tn;
     }
 }
