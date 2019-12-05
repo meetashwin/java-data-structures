@@ -11,7 +11,8 @@ Here are the data structures covered and operations
     1. Add element to Linked List
     2. Delete an element from Linked List
     3. Find if the Linked List is circular
-3. Stack (coming soon)
+3. Stack
+    1. Implement stack using array (integer)
 4. Queue (coming soon)
 5. Trees
    1. Basic tree traversal - Inorder, Preorder, Postorder
